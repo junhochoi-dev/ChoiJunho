@@ -3,7 +3,7 @@ const nextConfig = {
     reactStrictMode: true,
     output: "export",
 };
-module.exports = nextConfig;
+export default nextConfig;
 
 const withImages = require("next-images");
 module.exports = withImages();
