@@ -2,13 +2,11 @@
   "name": "next-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://junhojunhochoi-dev.github.io/ChoiJunHo",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "touch out/.nojekyll && gh-pages -d out --dotfiles"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.2.4",
